@@ -1,0 +1,85 @@
+
+body{
+    text-align: center;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+
+header{
+    background-color: white;
+    color : black;
+    padding: 0.1em;
+}
+
+.scoreBoard{
+    padding: 30px;
+    font-size: 46px;
+    border : 2px solid white;
+    border-radius: 5px;
+    text-align: center;
+    width : 200px;
+    margin: 20px auto;
+    margin-top: 50px;;
+    position: relative;   
+}
+
+.label{
+    background-color: #c94c43;
+    font-size: 14px;
+    height: 20px;
+    text-align: center;
+    border-radius: 5px;
+    padding : 2px 10px;
+}
+
+#user{
+    position: absolute;
+    top : 50px;
+    left: -20px;
+}
+
+#comp{
+    position: absolute;
+    top : 50px;
+    right: -25px;
+}
+.game{
+    padding: 10px;
+    margin: 20px;
+}
+img{
+    width : 70px;
+    height : 70px; 
+    border : 2px solid black;
+    border-radius: 50%;
+    padding : 5px;
+    margin : 20px;
+    background-color: white;
+}
+
+.choice{
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+img:hover{
+    background-color: #594ba0 ;
+    cursor: pointer;
+}
+
+.green{
+    border :5px solid rgb(82, 192, 82);
+}
+
+.red{
+    border :5px solid rgb(212, 81, 41);
+}
+
+.gray{
+    border :5px solid rgb(108, 121, 108);
+
+}
